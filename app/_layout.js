@@ -1,6 +1,5 @@
-import Slot from "expo-router";
-
-// Import your global CSS file
-import "../app.css"
-
-export default Slot
+import {Slot} from "expo-router";
+import "../global.css";
+export default function LayoutPage(){
+return <Slot />
+}
